@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mansi Mittal — Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Background canvases -->
+  <canvas id="starsCanvas"></canvas>
+  <canvas id="shootingCanvas"></canvas>
+
+  <!-- Navigation -->
+  <header class="nav">
+    <div class="brand">Mansi<span>Mittal</span></div>
+    <nav class="navlinks">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#internship">Internship</a>
+      <a href="#research">Research</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#memberships">Memberships</a>
+      <a href="#creative">Creative</a>
+      <a href="#extracurriculars">Extracurriculars</a>
+      <a href="#contact">Contact</a>
+      
+
+    </nav>
+    <button id="burger" class="burger">☰</button>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="hero container">
+    <div class="hero-card">
+      <img src="Screenshot 2025-09-04 232841.png" alt="Mansi Mittal" class="avatar" />
+      <h1>Hi — I’m <span class="accent">Mansi Mittal</span></h1>
+      <p class="subtitle">CSE • Web Development • Artist • Anchor | EX-Summer Intern @ IIT Ropar</p>
+      <div class="cta">
+        <a class="btn primary" href="#contact">Let’s Connect</a>
+        <a class="btn ghost" href="#projects">Projects</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section container">
+    <h2>About Me</h2>
+    <div class="card">
+      <p>
+        I am a B.Tech Computer Science & Engineering student passionate about building
+        web applications, AI solutions, and impactful projects. With experience in
+        research (IIT Ropar), hackathons, technical events, and fine arts, I strive
+        to balance creativity and technology.
+      </p>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section container">
+    <h2>Skills</h2>
+    <div class="grid skills">
+      <div class="pill">C / C++</div>
+      <div class="pill">JavaScript</div>
+      <div class="pill">MongoDB</div>
+      <div class="pill">SQL</div>
+      <div class="pill">Git & GitHub</div>
+      <div class="pill">Problem Solving (DSA)</div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section container">
+    <h2>Projects</h2>
+    <div class="grid cards">
+      <div class="card">
+        <h3>Placement / Internship Tracker</h3>
+        <p>Full-stack platform with role-based access for TPOs & students to manage internships & placements.</p>
+      </div>
+      <div class="card">
+        <h3>Food Waste Management</h3>
+        <p>Platform connecting restaurants/events with NGOs to redistribute leftover food.</p>
+      </div>
+      <div class="card">
+        <h3>Smart Waste Management</h3>
+        <p>IoT + analytics solution for bin-level monitoring, route optimization and city-scale efficiency.</p>
+      </div>
+      <div class="card">
+        <h3>Student Code Plagiarism Checker</h3>
+        <p>Tool to detect structural similarity in student code submissions to promote originality.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="section container">
+    <h2>Education</h2>
+    <div class="grid card">
+        <ul>
+          <div class="card">
+            <h3>B.Tech — Computer Science & Engineering</h3>
+            <p>BBSBEC (2023 – 2027)</p>
+          </div>
+          <div class="card">
+            <h3>Senior Secondary (12th) — PCM</h3>
+            <p>Shaheed E Azam Sukhdev Thapar Govt. Girls Sr. Sec. Smart School — 81.4% (2021)</p>
+          </div>
+          <div class="card">
+            <h3>High School (10th)</h3>
+            <p>M.D. Public High School — 84% (2019)</p>
+          </div>
+        </ul>
+    </div>
+  </section>
+
+  <!-- INTERNSHIP -->
+  <section id="internship" class="section container">
+    <h2>Internship</h2>
+    <div class="card">
+      <h3>Research Intern — IIT Ropar</h3>
+      <p>Worked on understanding and implementation of data structure as summer intern.</p>
+    </div>
+  </section>
+
+  <!-- RESEARCH -->
+  <section id="research" class="section container">
+    <h2>Research & Presentations</h2>
+    <div class="grid cards">
+      <div class="card">
+        <h3>AI in Healthcare (Paper & Poster)</h3>
+        <p>Explored AI applications for diagnosis assistance and clinical decision support.</p>
+      </div>
+      <div class="card">
+        <h3>Alfrid (PPT with prototype)</h3>
+        <p>AI-concept poster project and prototype presentation.</p>
+      </div>
+      <div class="card">
+        <h3>Waste Management Studies</h3>
+        <p>Food Waste & Smart Waste Management presented in seminars & PPTs.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACHIEVEMENTS -->
+  <section id="achievements" class="section container">
+    <h2>Achievements</h2>
+    <div class="grid cards">
+      <div class="card">
+        <h3>Hackathons</h3>
+        <ul>
+          <li>2nd Place — Next Quantum 2.0 Hackathon, Gulzar Group of Institutions.</li>
+          <li>Semi-finalist — DTU Hackathon.</li>
+          <li>Ideathon “Junk2Genius 2025” — RIMT University.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Publications</h3>
+        <ul>
+          <li>*The Mutiny that Lies Within* (The Write Order, 2021).</li>
+          <li>*Remember the Roses* (The Write Order, 2021).</li>
+          <li>*Catharsis* (Buchleser Books, Co-author).</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Creative Arts</h3>
+        <ul>
+          <li>Certificates of Appreciation in School & College (Fine Arts, Model Presentations, Ad Mad Shows).</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section id="certifications" class="section container">
+    <h2>Certifications</h2>
+    <div class="grid cards">
+      <div class="card">
+        <h3>Technical</h3>
+        <ul>
+          <li>Machine Learning Workshop — NIELIT Chandigarh (2025).</li>
+          <li>Seminar: Psychological Impact of Technology — Institution of Engineers (2025).</li>
+          <li>Seminar: World Telecommunication & Information Society Day — Institution of Engineers (2025).</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Professional</h3>
+        <ul>
+          <li>Production Supervisor Sewing — NSDC, Govt. of India (2022).</li>
+          <li>Soft Skills & IT Trainer — Saraswati Education & Welfare Society (2023).</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Other</h3>
+        <ul>
+          <li>English Scholarship Test — Maestro Studio (2019).</li>
+          <li>Seminars in Makeup & Hairstyling.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- MEMBERSHIPS -->
+  <section id="memberships" class="section container">
+    <h2>Memberships</h2>
+    <div class="card">
+      <ul>
+        <li>Member — IEI Student Chapter (Institution of Engineers, India).</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- CREATIVE -->
+  <section id="creative" class="section container">
+    <h2>Creative Work</h2>
+    <div class="card">
+      <p>I am also an artist and regularly share my paintings and sketches on Instagram.</p>
+      <p>Check out my work here: <a href="https://www.instagram.com/art_bymansi_" target="_blank">@art_bymansi_</a></p>
+    </div>
+  </section>
+  <!-- EXTRACURRICULARS -->
+<section id="extracurriculars" class="section container">
+  <h2>Extracurriculars & Volunteering</h2>
+  <div class="card">
+    <ul>
+      <li>Coordinated & volunteered in multiple <strong>technical and non-technical events</strong> at college.</li>
+      <li>Anchored various <strong>school and college events</strong>.</li>
+      <li>Anchored multiple <strong>IEI seminars</strong>, showcasing leadership and public speaking skills.</li>
+    </ul>
+  </div>
+</section>
+  <!-- CONTACT -->
+  <section id="contact" class="section container">
+    <h2>Contact</h2>
+    <div class="card contact">
+      <p><strong>Email:</strong> <a href="mailto:mansi.2300407@bbsbec.ac.in">mansi.2300407@bbsbec.ac.in</a></p>
+      <p><strong>Phone:</strong> <a href="tel:+916283988496">+91 6283988496</a></p>
+      <p><strong>GitHub:</strong> <a href="https://github.com/mansimittal29" target="_blank">github.com/mansimittal29</a></p>
+      <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/mansi-mittal-b3a94421b" target="_blank">linkedin.com/in/mansi-mittal-b3a94421b</a></p>
+      <p><strong>Instagram:</strong> <a href="https://www.instagram.com/art_bymansi_" target="_blank">@art_bymansi_</a></p>
+    </div>
+  </section>
+
+  <footer class="foot container">
+    © 2025 Mansi Mittal — Built with curiosity and stardust ✨
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
